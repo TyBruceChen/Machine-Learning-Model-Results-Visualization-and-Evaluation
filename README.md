@@ -11,7 +11,9 @@ For further fundamental explanation in [my blog](https://tychence.wordpress.com/
 
 ## Results Display
 Loss graph during training and validaton
+
 ![Loss graph during training and validaton](graphs/Loss_graph_vit.png)
 
 Confusion Matrix
+
 ![Confusion Matrix](graphs/confusion_matrix_efficientvit_b3.png)
