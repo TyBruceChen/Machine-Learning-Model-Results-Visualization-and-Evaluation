@@ -14,4 +14,4 @@ Loss graph during training and validaton
 ![Loss graph during training and validaton](graphs/Loss_graph_vit.png)
 
 Confusion Metrix
-![Confusion Metrix](graphs/confusion_matrix_efficientvit_b3.png)
+![Confusion Metrix](graphs/confusion_matrix_efficientvit-b3.png)
