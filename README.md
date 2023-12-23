@@ -13,5 +13,5 @@ For further fundamental explanation in [my blog](https://tychence.wordpress.com/
 Loss graph during training and validaton
 ![Loss graph during training and validaton](graphs/Loss_graph_vit.png)
 
-Confusion Metrix
-![Confusion Metrix](graphs/confusion_matrix_efficientvit-b3.png)
+Confusion Matrix
+![Confusion Matrix](graphs/confusion_matrix_efficientvit-b3.png)
