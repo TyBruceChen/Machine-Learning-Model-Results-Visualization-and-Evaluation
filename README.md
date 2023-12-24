@@ -11,6 +11,11 @@ So I create this repository to handle results from models, mainly for torch and 
 For further fundamental explanation in [my blog](https://tychence.wordpress.com/machine-learning-results-evaluation/).
 
 ## Results Display
+These are some example graphs from one of my project:
+Accuracy comparison between models
+
+
+
 Loss graph during training and validaton
 
 ![Loss graph during training and validaton](graphs/Loss_graph_vit.png)
