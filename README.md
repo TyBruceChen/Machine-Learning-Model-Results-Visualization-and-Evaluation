@@ -1,4 +1,4 @@
-# Machine-Learning-Model-Results-Visualization-and-Evaluation
+# Machine-Learning-Results-Visualization-and-Evaluation
 ## Introduction
 This repository aims to evaluate the performance of machine learning models by visualizing results with 
 1. Accuracy
