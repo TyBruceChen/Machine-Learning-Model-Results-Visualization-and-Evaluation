@@ -26,3 +26,7 @@ Loss graph during training and validaton
 Confusion Matrix
 
 ![Confusion Matrix](graphs/confusion_matrix_efficientvit_b3.png)
+
+Grad-CAM (critical feactures in model's vision(for classifying lungs in this case))
+
+![Grad-CAM](graphs/Grad-CAM.png)
