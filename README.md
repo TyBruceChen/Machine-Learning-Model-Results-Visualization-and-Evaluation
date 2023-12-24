@@ -12,6 +12,7 @@ For further fundamental explanation in [my blog](https://tychence.wordpress.com/
 
 ## Results Display
 These are some example graphs from one of my project:
+
 Accuracy comparison between models
 
 ![Bar_graph](graphs/Bar_Graph.png)
