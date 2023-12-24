@@ -14,7 +14,7 @@ For further fundamental explanation in [my blog](https://tychence.wordpress.com/
 These are some example graphs from one of my project:
 Accuracy comparison between models
 
-
+![Bar_graph](graphs/Bar_Graph.png)
 
 Loss graph during training and validaton
 
