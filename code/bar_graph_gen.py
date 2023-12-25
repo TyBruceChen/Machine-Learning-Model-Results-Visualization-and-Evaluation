@@ -8,6 +8,8 @@ def bar_graph_gen(csv_path = './test_results/Accuracy_models.csv',
                   model_names = ['model_1','model_2','model_3','model_4','model_5','modle_6','model_7','model_8']
                   display_range = (92,96)):
   """
+  This function generate bar graph in the horizontal direction
+  params:
   csv_path: where the accuracy/output stores
   colors: the color of bar with respect to each model (from bottom to top), default 8 model types
   model_names： the name of bar with respect to each model (from bottom to top), default 8 model types
