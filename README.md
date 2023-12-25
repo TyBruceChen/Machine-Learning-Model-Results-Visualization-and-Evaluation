@@ -15,17 +15,19 @@ For further fundamental explanation in [my blog](https://tychence.wordpress.com/
 ## Results Display
 These are some example graphs from one of my project:
 
-Accuracy comparison between models
+[Accuracy comparison between models](code/bar_graph_gen.py)
 
 ![Bar_graph](graphs/Bar_Graph.png)
 
-Loss graph during training and validaton
+[Loss graph during training and validaton](code/Loss_Acc_graph_gen.py)
 
 ![Loss graph during training and validaton](graphs/Loss_graph_vit.png)
 
-Confusion Matrix
+[Confusion Matrix](code/confusion_matrix_graph_gen.py)
 
 ![Confusion Matrix](graphs/confusion_matrix_efficientvit_b3.png)
+
+[Recall, Precision and F1 score](code/metrics_eval.py)
 
 Grad-CAM (critical feactures in model's vision(for classifying lungs in this case))
 
