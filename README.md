@@ -30,5 +30,8 @@ These are some example graphs from one of my project:
 [Recall, Precision and F1 score](code/metrics_eval.py)
 
 Grad-CAM (critical feactures in model's vision(for classifying lungs in this case))
+See the code in my another repository: 
+
+[Grad-CAM--Understand-deep-learning-from-higher-view](https://github.com/TyBruceChen/Grad-CAM--Understand-deep-learning-from-higher-view)
 
 ![Grad-CAM](graphs/Grad-CAM.png)
