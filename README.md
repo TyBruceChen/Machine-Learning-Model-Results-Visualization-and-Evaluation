@@ -3,8 +3,10 @@
 This repository aims to evaluate the performance of machine learning models by visualizing results with 
 1. Accuracy
 2. Mathematical metrics: recall/sensitivity (R), precision (P), F1 score (F)
-3. Class Activation Map (Heat-map-like): Grad-CAM 
-4. ...
+3. Class Activation Map (Heat-map-like): [Grad-CAM](https://github.com/TyBruceChen/Grad-CAM--Understand-deep-learning-from-higher-view) 
+4. Calculation of True Positive (TP), TN, FP, FN
+5. Draw the confusion matrix
+6. ...
 
 repository status: in progress
 
