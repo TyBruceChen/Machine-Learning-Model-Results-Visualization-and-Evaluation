@@ -24,3 +24,33 @@ def calculate_recall_precision(y_true,y_pred,method = 'weighted'):
     f1_w = (f1_score(y_true,y_pred,average = method))
   
     return recall, precision,f1,recall_w,precision_w,f1_w
+
+
+def f_concepts_cm(cm_num,class_idx, R = False, P = False, F1  = False, Sp = False):
+    """
+    This function calculates and turns TP,TN,FP,FN values of specified class.
+    cm_num: 2-d tuple like, where the predictions are aligned in column, ground-truth
+    are aligned in row.
+    class_idx: the class number you want to calculate with
+    """
+    length = len(cm_num)
+    TP = FN = TN = FP = 0
+
+    pass
+    for i in range(length):
+        for j in range(length):
+            if i == class_idx:  #TP and FN
+                if i == j:  #TP
+                    TP = cm_num[i][j]
+                else:   #FN
+                    FN += cm_num[i][j]
+            else:
+                if i == j:  #TN
+                    TN += cm_num[i][j]
+                elif j == class_idx: #FP
+                    FP += cm_num[i][j]
+
+    #print (str(TP/(TP+FP)))
+    print(f'TP: {TP}, TN: {TN}, FP: {FP}, FN: {FN}')
+
+    return TP, TN, FP, FN
