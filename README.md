@@ -29,7 +29,7 @@ These are some example graphs from one of my project:
 
 ![Confusion Matrix](graphs/confusion_matrix_efficientvit_b3.png)
 
-[Recall, Precision and F1 score](code/metrics_eval.py)
+[Recall, Precision, F1 score, and TP TN FP FN](code/metrics_eval.py)
 
 Grad-CAM (critical feactures in model's vision(for classifying lungs in this case))
 See the code in my another repository: 
